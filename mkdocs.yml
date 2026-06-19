@@ -1,0 +1,20 @@
+site_name: DevOps Knowledge Base
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+  - Terraform:
+      - Type Constraints: terraform/type-constraints.md
+      - Meta Arguments: terraform/meta-arguments.md
+      - Functions: terraform/functions.md
+      - Modules: terraform/modules.md
+
+  - Azure:
+      - Azure Fundamentals: azure/fundamentals.md
+      - Azure DevOps: azure/devops.md
+
+  - Kubernetes:
+      - Basics: kubernetes/basics.md
